@@ -1,4 +1,86 @@
-.App {
+/*NAVBAR*/
+::-webkit-scrollbar {
+  width: 12px; /* Ancho del scroll */
+}
+
+/* Cambiar el color del thumb (la barra del scroll) */
+::-webkit-scrollbar-thumb {
+  background-color: #BD79B6; /* Color del thumb */
+  border-radius: 6px; /* Borde redondeado del thumb */
+}
+
+/* Cambiar el color del thumb cuando está en hover (opcional) */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #954E9E; /* Color del thumb al pasar el cursor sobre él */
+}
+
+/* Cambiar el color del track cuando está en hover (opcional) */
+::-webkit-scrollbar-track:hover {
+  background-color: #F0F0F0; /* Color del track*/
+}
+.navbar-brand{
+  color: yellow;
+}
+.nav-right {
+  text-align: center;
+  background-color:#8220ff;
+  box-shadow: 0px 4px 8px #000000b9;
+  border-radius: 14px;
+  color: black;
+  width: 10%;
+  position: absolute; /* Cambia la posición absoluta */
+  right: 100px; /* Ajusta la distancia desde el lado derecho */
+  top: 10px; /* Empuja el elemento a la derecha utilizando "auto" */
+}
+.nav-right:hover {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.637);
+}
+
+/*BODY*/
+h2{
+  padding: 20px;
+  font-size: 40px;
+}
+.center{
+  text-align: center;
+  display: grid;
+  place-items: center; /* Centra vertical y horizontalmente */
+  margin: 0 auto;
+}
+.con{
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  width: 30%;
+  height: 100%;
+  max-height: 400px;
+  text-align: center;
+}
+.center-vertical{
+  display: flex;
+  flex-direction: column; /* Orientación vertical */
+  align-items: center; /* Centrar verticalmente */
+  justify-content: center; /* Centrar horizontalmente */
+  height: 40vh;
+
+}
+input{
+  border-radius: 14px;
+  border: none;
+  margin: 20px 0; /* Agrega espacio arriba y abajo de los input */
+  padding: 15px; 
+  width: 70%;
+}
+.button-purple{
+  background-color: #722197bb;
+  color: white;
+}
+br{
+  padding-top: 10px;
+}
+/* 
+.container-fluid{
+  .App {
   text-align: center;
 }
 
@@ -35,4 +117,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
