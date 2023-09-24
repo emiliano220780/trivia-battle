@@ -4,7 +4,7 @@
     display: block;
     margin: 0 auto;
 }
-h1{
+.Sent-wait{
     padding-top: 90px;
     color: black;
     font-size: 30px;
@@ -15,7 +15,7 @@ h1{
     gap: 4;
     border-radius: 14px;
 }
-.grid-container {
+.grider-container {
     margin: 0 auto;
     max-width: 800px;
     height: 191px;

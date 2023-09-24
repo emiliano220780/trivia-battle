@@ -6,7 +6,7 @@ import plata from '../plata.png';
 export default function WorldScore() {
     return (
     <div className='WorldScore'>
-        <i><h1>
+        <i><h1 className='Tittle-WS'>
         <img width="64" height="64" src="https://img.icons8.com/arcade/64/medal.png" alt="medal"/>
         LEADER BOARD<img width="64" height="64" src="https://img.icons8.com/arcade/64/medal.png" alt="medal"/>
         </h1></i>

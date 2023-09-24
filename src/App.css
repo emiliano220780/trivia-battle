@@ -64,7 +64,8 @@ h2{
   height: 40vh;
 
 }
-input{
+input, 
+input [type="text"]{
   border-radius: 14px;
   border: none;
   margin: 20px 0; /* Agrega espacio arriba y abajo de los input */
@@ -78,6 +79,7 @@ input{
 br{
   padding-top: 10px;
 }
+
 /* 
 .container-fluid{
   .App {

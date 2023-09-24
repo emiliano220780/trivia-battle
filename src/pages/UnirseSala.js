@@ -10,8 +10,8 @@ function UnirseSala() {
         <form action="">
         <h2>UNIRSE A LA SALA </h2>
         <div className='center-vertical'>
-        <input type="text" placeholder="Ingresa el codigo..."/>
-        <br/>
+        <br/>  
+        <input type='text' placeholder='ingresar el codigo...' className='text-code'/>
         <input type="button" value="Ingresar a la partida" className='button-purple'/></div>
     </form>
 
