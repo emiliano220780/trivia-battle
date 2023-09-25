@@ -49,24 +49,24 @@ function App() {
 					exact
 				/> */}
 
-         {/* <BodyLayout backgroundColor="#450264c2">
+         <BodyLayout backgroundColor="#450264c2">
 							<UnirseSala />
-						</BodyLayout>  */}
+						</BodyLayout>
              <BodyLayout backgroundColor="#cb3cfff5">
 							<WorldScore />
           </BodyLayout>
-             {/* <BodyLayout backgroundColor="#D86AFF">
+             <BodyLayout backgroundColor="#D86AFF">
 							<Login/>
-						</BodyLayout> */}
-            {/* <BodyLayout backgroundColor="#450264c2">
+						</BodyLayout>
+            <BodyLayout backgroundColor="#450264c2">
 							<RoomEspera />
-						</BodyLayout>  */}
-             {/* <BodyLayout backgroundColor="#D86AFF">
+						</BodyLayout>  
+             <BodyLayout backgroundColor="#D86AFF">
 							<Registro />
-						</BodyLayout>  */}
-             {/* <BodyLayout backgroundColor="#6c40af">
+						</BodyLayout> 
+             <BodyLayout backgroundColor="#6c40af">
 							<AddQuestion />
-						</BodyLayout>  */}
+						</BodyLayout> 
 </div>
 
   );
